@@ -1,0 +1,62 @@
+INSERT INTO RACAS(NOME_RACA)
+VALUES ("Humano"),
+       ("Elfo"),
+       ("Anão"),
+       ("Minotauro"),
+       ("Gnomo"),
+       ("Goblim"),
+       ("Orc"),
+       ("Tiefling"),
+       ("Halfling"),
+       ("Draconato");
+
+INSERT INTO CLASSES(NOME_TIPO)
+VALUES ("Bárbaro"),
+       ("Bardo"),
+       ("Mago"),
+       ("Feiticeiro"),
+       ("Bruxo"),
+       ("Druida"),
+       ("Ranger"),
+       ("Clérigo"),
+       ("Paladino"),
+       ("Guerreiro"),
+       ("Monge"),
+       ("Ladino");
+
+INSERT INTO TIPO_EQUIPS(NOME_TIPO)
+VALUES ("Espada"),
+       ("Machado"),
+       ("Lança"),
+       ("Escudo"),
+       ("Arco"),
+       ("Besta"),
+       ("Chicote"),
+       ("Maça"),
+       ("Poção"),
+       ("Armadura"),
+       ("Roupa"),
+       ("Objeto"),
+       ("Comida"),
+       ("Dinheiro");
+
+INSERT INTO TIPO_MONTARIA(NOME_TIPO)
+VALUES ("Terrestre"),
+       ("Aquático"),
+       ("Voador");
+
+INSERT INTO TIPO_INIMIGO(NOME_TIPO)
+VALUES ("Fácil"),
+       ("Médio"),
+       ("Difícil"),
+       ("Pesadelo"),
+       ("Impossível");
+
+INSERT INTO ATRIBUTO(VIDA, INTELIGENCIA, DESTREZA, ARMADURA, FURTIVIDADE, SORTE, DANO)
+VALUES (12,15,10,18,10,5,12),
+       (20,5,8,14,2,7,15),
+       (120,20,15,19,10,7,30),
+       (50,0,0,0,0,0,0),
+       (0,0,0,0,0,0,30),
+       (0,0,0,10,0,0,0),
+       (0,0,0,0,20,0,0);
